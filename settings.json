@@ -1,39 +1,54 @@
-{
-    "workbench.colorTheme": "Default Dark+",
-    "editor.minimap.enabled": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorCustomizations": {
+// Replace this settings to settings json (makes changes current selected theme)
+"workbench.colorCustomizations":{
+        // ACTIVITY BAR
         "activityBar.background": "#161616",
         "activityBar.foreground": "#ffffff",
         "activityBar.border": "#000000",
         "activityBar.activeBorder": "#ff0000",
         "activityBar.dropBorder": "#ff0000",
         "activityBar.activeFocusBorder": "#ff0000",
-        "editor.background": "#151515",
-        "banner.background": "#151515",
         "activityBar.activeBackground": "#202020",
+        "activityBarBadge.background": "#920606",
+        // BANNER
+        "banner.background": "#151515",
+        // EDITOR
+        "editor.background": "#151515",
+        // PROBLEMS TAB
+        "problemsErrorIcon.foreground": "#ff0000",
+        "problemsInfoIcon.foreground": "#29b1d0",
+        "problemsWarningIcon.foreground": "#ced029",
+        // LIST BAR
+        "list.activeSelectionBackground": "#86868665",
+        "list.focusOutline": "#442142",
+        "list.inactiveFocusOutline": "#99422f",
+        // PANEL
+        "panel.border": "#404040",
+        // SCROLL BAR
+        "scrollbar.shadow": "#ff0000",
+        "scrollbarSlider.background": "#754747",
+        "scrollbarSlider.hoverBackground": "#d47a7a",
+        "scrollbarSlider.activeBackground": "#3c1616",
+        // SIDE BAR
         "sideBar.background": "#191919",
-        "titleBar.activeBackground": "#000000",
+        "sideBarSectionHeader.border": "#ff0000",
+        "sideBarSectionHeader.foreground": "#ffffff",
+        "sideBarSectionHeader.background": "#1f1e1e",
+        "sideBar.border": "#404040",
+        // STATUS BAR
         "statusBar.foreground": "#ffffff",
         "statusBarItem.activeBackground": "#151515",
         "statusBarItem.hoverBackground": "#454545",
         "statusBar.noFolderBackground": "#282828",
         "statusBar.background": "#282828",
+        // TAB BAR
+        "tab.activeBorder": "#30e4a8",
         "tab.hoverBackground": "#909090",
+        // TERMINAL TAB
+        "terminalCursor.foreground": "#7679ff",
+        // TITTLE BAR
+        "titleBar.border": "#404040",
+        "titleBar.activeBackground": "#000000",
         "titleBar.activeForeground": "#ffffff",
+        // TOOL BAR
         "toolbar.hoverOutline": "#25025025",
-        "sideBarSectionHeader.background": "#1f1e1e",
-        "sideBarSectionHeader.border": "#ff0000",
-        "sideBarSectionHeader.foreground": "#ffffff",
-        "list.activeSelectionBackground": "#86868665",
-        "list.focusOutline": "#442142",
-        "list.inactiveFocusOutline": "#99422f",
-        "activityBarBadge.background": "#920606",
-        "scrollbarSlider.background": "#754747",
-        "scrollbarSlider.hoverBackground": "#d47a7a",
-        "scrollbarSlider.activeBackground": "#3c1616",
-        "sideBar.border": "#ff0000",
-        "titleBar.border": "#ff0000",
-        "tab.activeBorder": "#ff0000"
-    }
 }
